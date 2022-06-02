@@ -1,7 +1,4 @@
-import React from 'react';
+import React from "react";
 
-const Category = () => {
-  return <button>Check status</button>;
-};
-
+const Category = () => <button type="submit">Check status</button>;
 export default Category;

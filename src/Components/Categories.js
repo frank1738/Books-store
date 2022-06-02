@@ -1,12 +1,9 @@
-import React from 'react';
-import Category from './Category';
+import React from "react";
+import Category from "./Category";
 
-const Categories = () => {
-  return (
-    <section className='categories-section'>
-      <Category />
-    </section>
-  );
-};
-
+const Categories = () => (
+  <section className="categories-section">
+    <Category />
+  </section>
+);
 export default Categories;
