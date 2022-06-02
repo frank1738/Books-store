@@ -42,6 +42,7 @@ To get a local copy up and running follow these simple example steps.
 - go to the repository folder in your command prompt `cd Books-store`
 
 ## To run the application
+
 > Run the command `npm install`
 
 > Run the command `npm start`
@@ -50,7 +51,7 @@ To get a local copy up and running follow these simple example steps.
 
 > npm test
 
-👤 **Frankline Osoro**
+👤 **Author**
 
 ## Frankline osoro
 
