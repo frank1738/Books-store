@@ -1,25 +1,27 @@
 // REDUCER
 const reducer = (state = [], action) => {
   switch (action.type) {
-    default:
-      return state;
     case 'add':
-      return state;
+      return state.concat(action.playload);
     case 'remove':
+      return state.filter((book) => book.id !== action.playload);
+    default:
       return state;
   }
 };
 
 // ACTIONS
-export const addBook = () => {
+export const addBook = (book) => {
   return {
     type: 'add',
+    playload: book,
   };
 };
 
-export const removeBook = () => {
+export const removeBook = (id) => {
   return {
     type: 'remove',
+    playload: id,
   };
 };
 

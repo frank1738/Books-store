@@ -1,10 +1,10 @@
 // REDUCER
 const reducer = (state = [], action) => {
   switch (action.type) {
-    default:
-      return state;
     case 'checkStatus':
       return 'Under construction';
+    default:
+      return state;
   }
 };
 
