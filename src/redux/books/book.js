@@ -1,5 +1,10 @@
 // REDUCER
-const reducer = (state = [], action) => {
+
+const books = [
+  { name: 'Enemity', author: 'enrique', id: 1 },
+  { name: 'Trigger', author: 'Gregory', id: 2 },
+];
+const reducer = (state = books, action) => {
   switch (action.type) {
     case 'add':
       return state.concat(action.playload);

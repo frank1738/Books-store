@@ -1,8 +1,8 @@
 // REDUCER
-const reducer = (state = [], action) => {
+const reducer = (state = '', action) => {
   switch (action.type) {
     case 'checkStatus':
-      return 'Under construction';
+      return state.concat('Under Construction');
     default:
       return state;
   }

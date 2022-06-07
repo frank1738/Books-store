@@ -4,8 +4,8 @@ import categoryReducer from './categories/categories';
 
 // COMBINE REDUCERS
 export const rootReducer = combineReducers({
-  book: bookReducer,
-  category: categoryReducer,
+  library: bookReducer,
+  categories: categoryReducer,
 });
 
 // STORE
