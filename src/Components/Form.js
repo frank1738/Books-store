@@ -6,13 +6,15 @@ import { useSelector } from 'react-redux';
 
 function Form() {
   const library = useSelector((state) => state.library);
+  const id = library.length + 1;
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
   const book = {
-    name: title,
+    item_id: id,
+    title: title,
     author: author,
-    id: library.length + 1,
+    category: 'Fiction',
   };
   return (
     <div className="form-section">
