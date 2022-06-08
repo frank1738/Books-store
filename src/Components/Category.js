@@ -2,10 +2,11 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { checkStatus } from '../redux/categories/categories';
 import { useDispatch } from 'react-redux';
+import { isDisabled } from '@testing-library/user-event/dist/utils';
 
 const Category = () => {
-  const dispatch = useDispatch();
   const currentStatus = useSelector((state) => state.categories);
+  const dispatch = useDispatch();
   return (
     <div>
       <h3>{currentStatus}</h3>
@@ -16,7 +17,7 @@ const Category = () => {
       >
         Check status
       </button>
-      ;
+      <button>create app</button>;
     </div>
   );
 };
