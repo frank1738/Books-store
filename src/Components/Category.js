@@ -9,7 +9,7 @@ const Category = () => {
   const dispatch = useDispatch();
   return (
     <div>
-      <h3>{currentStatus}</h3>
+      <h3 className="status-header">{currentStatus}</h3>
       <button
         type="submit"
         className="status-btn"
@@ -17,7 +17,6 @@ const Category = () => {
       >
         Check status
       </button>
-      <button>create app</button>;
     </div>
   );
 };

@@ -1,11 +1,14 @@
 # Books Store
 
 This is a Book app that enable users to track their favourite Books.
+It fetches book-data from the Boostore API and displays it.
 In this version of the Book App, the user will be getting three options
 
 - Adding a new Book in to the Book List
 - See all the Books that were added to the app
 - Delete any Book from the list of Books
+
+![image](https://user-images.githubusercontent.com/98453979/172873172-87632ec7-d15f-4d15-88fc-c2e57ff97d89.png)
 
 ## Built With
 
@@ -22,6 +25,10 @@ In this version of the Book App, the user will be getting three options
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 
 - ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
+
+## Live Demo
+
+[Books-store](https://meek-centaur-33bb88.netlify.app/)
 
 ## Prerequisites
 

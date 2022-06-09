@@ -23,17 +23,18 @@ function Form() {
         <input
           type="text"
           placeholder="Book title"
-          className="title"
+          className="title-input input"
           onChange={(e) => setTitle(e.target.value)}
         />
         <input
           type="text"
           placeholder="Author"
-          className="author"
+          className="author-input input"
           onChange={(e) => setAuthor(e.target.value)}
         />
         <button
           type="submit"
+          className="submit-btn"
           onClick={(e) => {
             e.preventDefault();
             if (title === '' && author === '') {
@@ -47,9 +48,11 @@ function Form() {
             }
 
             dispatch(addBook(book));
+            document.querySelector('.title-input').value = '';
+            document.querySelector('.author-input').value = '';
           }}
         >
-          Submit
+          Add Book
         </button>
       </form>
     </div>
