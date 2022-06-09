@@ -1,11 +1,14 @@
 # Books Store
 
 This is a Book app that enable users to track their favourite Books.
+It fetches book-data from the Boostore API and displays it.
 In this version of the Book App, the user will be getting three options
 
 - Adding a new Book in to the Book List
 - See all the Books that were added to the app
 - Delete any Book from the list of Books
+
+image.png
 
 ## Built With
 
