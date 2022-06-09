@@ -6,6 +6,7 @@ const link =
 const reducer = (state = [], action) => {
   switch (action.type) {
     case 'load':
+      const myBooks = [];
       const list = action.playload;
       for (const item in list) {
         const book = {
@@ -14,8 +15,9 @@ const reducer = (state = [], action) => {
           author: list[item][0].author,
           category: list[item][0].category,
         };
-        state.push(book);
+        myBooks.push(book);
       }
+      state = myBooks;
       return state;
     case 'add':
       return state.concat(action.playload);
