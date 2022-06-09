@@ -18,7 +18,7 @@ In this version of the Book App, the user will be getting three options
 
 - CSS
 
-- Rdux
+- Redux
 
 - Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
 
