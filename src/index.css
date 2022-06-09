@@ -18,7 +18,7 @@
   --bg-color: #fff;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
-  --body-font: Poppins, sans-serif;
+  --body-font: poppins, sans-serif;
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -194,6 +194,7 @@ svg circle:nth-child(2) {
   border-radius: 0.2rem;
   cursor: pointer;
 }
+
 .update-btn:hover {
   background: var(--first-color-lighter);
   border: 1px solid var(--first-color-lighter);
